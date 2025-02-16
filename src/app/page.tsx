@@ -24,18 +24,13 @@ const Navbar = () => {
 
 const Menu = () => {
   return (
-    <div className="h-screen bg-red-500 flex items-center justify-center p-4">
-    <div className="max-w-3xl text-center space-y-8">
-      <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
-        基于人工智能的大模型
+    <div className="h-screen bg-red-500 flex items-center justify-center">
+    <div className="text-center space-y-8">
+      <h1 className="text-6xl  font-bold text-gray-900 ">
+        基于人工智能的大模型交易软件
       </h1>
-
-      <h2 className="text-3xl md:text-4xl text-gray-600 font-medium">
-        交易软件
-      </h2>
-
       {/* 修改后的红色按钮 */}
-      <div className="mt-12">
+      <div className="mt-20">
         <button className="bg-white  text-xl md:text-2xl px-8 py-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105">
           点击下载最新
         </button>

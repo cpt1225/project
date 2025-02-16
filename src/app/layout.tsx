@@ -3,7 +3,7 @@ import localFont from 'next/font/local';
 import "./globals.css";
 
 const alibabaFont = localFont({
-  src: './AlibabaPuHuiTi-3-55-Regular.woff2',
+  src: './AlibabaPuHuiTi-3-65-Medium.woff2',
 });
 
 export const metadata: Metadata = {
