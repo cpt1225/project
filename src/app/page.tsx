@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 
 export default function Home() {
@@ -15,9 +16,10 @@ export default function Home() {
 
 const Navbar = () => {
   return (
-    <nav className="flex min-h-20  items-baseline bg-gray-300">
-        <span className="text-2xl ms-20 mt-5">期货通</span>
-        <span className="ms-10 text-xl">前沿的AI交易软件</span>
+    <nav className="flex min-h-20   bg-gray-300 items-center ">
+        <Image src="/logo.png" width={60} height={60} alt="logo" className="ms-20" />
+        <span className="text-2xl">期货通</span>
+        <span className="ms-10 text-xl mt-2">前沿的AI交易软件</span>
     </nav>
   );
 };
@@ -26,7 +28,7 @@ const Menu = () => {
   return (
     <div className="h-screen bg-red-500 flex items-center justify-center">
     <div className="text-center space-y-8">
-      <h1 className="text-6xl  font-bold text-gray-900 ">
+      <h1 className="text-6xl  font-bold  text-white">
         基于人工智能的大模型交易软件
       </h1>
       {/* 修改后的红色按钮 */}
