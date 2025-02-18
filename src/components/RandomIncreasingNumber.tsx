@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 
 // 设置起始日期（这里以2023年1月1日为例）
-const START_DATE = new Date('2025-02-11')
+const START_DATE = new Date('2025-02-18')
 
 // 生成基于日期的确定性随机数（10-30）
 const getDailyRandom = (date: Date): number => {
